@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLeft {
+    flex: 2;
+}
+
+.navMiddle {
+    flex: 8;
+}
+
+.navRight {
+    flex: 2
+}
+
+.navTitle {
+    margin: 0 20px;
+    font-size: 30px;
+    color: teal;
+}
+
+.navRightItems {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 20px;
+    padding-right: 10px; 
+}
+
+.navRightItems li {
+    color: #ffffff;
+    width: 80px;
+    height: 40px;
+    background: darkgreen;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
